@@ -6,9 +6,7 @@ local_dir = "kk_data"
 
 os.environ['HF_HUB_DOWNLOAD_TIMEOUT'] = '60'
 os.environ['HF_ENDPOINT'] = 'https://hf-mirror.com'
-os.environ['http_proxy'] = 'http://sys-proxy-rd-relay.byted.org:8118'
-os.environ['https_proxy'] = 'http://sys-proxy-rd-relay.byted.org:8118'
-os.environ['no_proxy'] = 'code.byted.org'
+
 
 
 def load_datasets_with_splits():
